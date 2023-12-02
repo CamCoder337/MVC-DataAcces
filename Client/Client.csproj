@@ -7,4 +7,9 @@
         <UseWPF>true</UseWPF>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\CAD\CAD.csproj" />
+      <ProjectReference Include="..\Middleware\Middleware.csproj" />
+    </ItemGroup>
+
 </Project>
